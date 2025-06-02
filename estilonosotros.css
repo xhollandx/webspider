@@ -1,0 +1,54 @@
+* {
+    padding: 2px;
+    box-sizing: border-box; /* Tamaño y borde de la página */
+    font-family: 'Arial', sans-serif; /* Fuente genérica moderna */
+}
+
+/* ENCABEZADO */
+#encabezado {
+    background-color: #2B3784; /* Azul Spider-Man */
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF; /* Texto blanco */
+    height: auto;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 18px;
+    list-style-type: none;
+    height: auto;
+    background-color: #B11313; /* Rojo Spider-Man */
+    color: #000000; /* Texto negro para contraste */
+}
+
+/* COLUMNA PRINCIPAL */
+#columna_principal {
+    float: left;
+    width: 70%;
+    height: 700px;
+    background-color: #2B3784; /* Azul Spider-Man */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+/* COLUMNA DE PUBLICIDAD */
+#columna_publicidad {
+    float: left;
+    width: 30%;
+    height: 700px;
+    background-color: #B11313; /* Rojo Spider-Man */
+    color: #000000; /* Texto negro */
+}
+
+/* PIE DE PÁGINA */
+#pie {
+    clear: both;
+    display: flex;
+    background-color: #B11313; /* Rojo Spider-Man */
+    height: 80px;
+    text-align: center;
+    color: #000000; /* Texto negro */
+}

@@ -1,0 +1,24 @@
+html{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+background-color:#0a1344;
+}
+div.ficha{
+width:200px;
+height:120px;
+float:  left;
+margin: 15px;
+}
+ul#menu{
+margin:1px;
+padding:1px;
+}
+#menu {
+background-color:red;
+border:lightblue 3px solid;
+margin:1px;
+float:left;
+}

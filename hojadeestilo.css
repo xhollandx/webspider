@@ -1,0 +1,38 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e3a8a; /* azul oscuro suave */
+  color: #fef2f2; /* texto claro para contraste */
+}
+
+div.ficha {
+  width: 200px;
+  height: 120px;
+  float: left;
+  margin: 15px;
+  background-color: #f87171; /* rojo suave */
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  color: #1e3a8a; /* texto azul para contraste */
+  font-weight: bold;
+  padding: 10px;
+}
+
+ul#menu {
+  margin: 1px;
+  padding: 1px;
+}
+
+#menu {
+  background-color: #ef4444; /* rojo más vivo */
+  border: 2px solid #60a5fa; /* azul claro */
+  margin: 1px;
+  float: left;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+}
